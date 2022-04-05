@@ -2,5 +2,11 @@
 
 source "https://rubygems.org"
 
-gem 'sinatra'
+group :development do
+  gem 'sinatra'
+  gem 'sinatra-contrib'
+  gem 'rspec'
+  gem 'rack'
+  gem 'capybara'
+end
 # gem "rails"
