@@ -8,5 +8,6 @@ group :development do
   gem 'rspec'
   gem 'rack'
   gem 'capybara'
+  gem 'puma'
 end
 # gem "rails"

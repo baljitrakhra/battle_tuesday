@@ -7,12 +7,13 @@ class Battle < Sinatra::Base
   end
 
   get '/' do
-    "Testing infrastructure working!"
+    p 'Testing infrastructure working!'
   end
 
   get '/name-form' do
     erb(:form)
   end
+
   post '/name' do
     p @p1name = params[:p1name]
     p @p2name = params[:p2name]
